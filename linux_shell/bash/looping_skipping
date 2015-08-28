@@ -1,0 +1,11 @@
+# Simply print out odd natural numbers from 1-99
+#!/bin/bash
+
+for i in {1..99}
+do 
+    let X=$i%2
+    if [ "$X" != "0" ]; 
+    then
+        echo $i
+    fi
+done
