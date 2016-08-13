@@ -5,7 +5,7 @@
 # each guest receives the same number of cookies
 # if there are not enough cookies for everyone to receive the same amount,
 # you must make some number of additional cookies
-# Given N and M, fid and print the minimum number of additional cookies you must make
+# Given N and M, find and print the minimum number of additional cookies you must make
 # 1 <= N, M <= 10^9
 
 import sys
