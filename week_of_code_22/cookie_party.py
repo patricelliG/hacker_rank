@@ -18,8 +18,8 @@ if n == 1 or n == m or m % n == 0:
 elif n > m:
     print(n - m)
 elif n < m:
-    divisor = m // n
-    extra_cookies = m - n * divisor
+    quotient = m // n
+    extra_cookies = m - n * quotient
     print(n - extra_cookies)
 else:
     # something is wrong, return 0
